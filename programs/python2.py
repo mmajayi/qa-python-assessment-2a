@@ -77,6 +77,7 @@ def two(num):
     # What happens if you multiply a string by a number?
 
 def three(a):
+    
     return 1
 
     # <QUESTION 4>
@@ -201,6 +202,7 @@ def seven(a, b, c):
     # Use the cli to access the documentation help(str.replace)
 
 def eight(string, num):
+    str.replace("string", )
     return ""
 
     # <QUESTION 9>
@@ -218,7 +220,11 @@ def eight(string, num):
     # There are no hints for this question.
 
 def nine(string1, string2):
-    return False
+
+    if (sorted(string1)==sorted(string2)):
+        return True
+    else:
+        return False
 
     # <QUESTION 10>
 
