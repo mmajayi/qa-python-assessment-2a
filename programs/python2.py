@@ -52,7 +52,15 @@ def one(string):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(num):
-    return False
+
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                return False
+        elif:
+            return True
+    else:
+        return False
 
     # <QUESTION 3>
 
@@ -115,9 +123,19 @@ def four(string1, string2):
     # The random module contains a function called randint.
 
 def five():
-    import random 
-    randomlist = random.sample(range(100,200),5)
-    return [randomlist]
+    import random
+    randomlist = []
+
+    for i in range (0, 5):
+        n = random.randint(100,200)
+        randomlist.append("n")
+        return randomlist
+    
+    # import random 
+    # randomlist = random.sample(range(100,200),5)
+    # return [randomlist]
+
+
 
     # <QUESTION 6>
 
