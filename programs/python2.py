@@ -30,7 +30,11 @@
     # How does a for loop iterate through a string?
 
 def one(string):
-    return ""
+    string_new= ""
+    for i in string:
+        string_new += 3 * i
+
+    return "string_new"
 
     # <QUESTION 2>
 
@@ -111,7 +115,9 @@ def four(string1, string2):
     # The random module contains a function called randint.
 
 def five():
-    return []
+    import random 
+    randomlist = random.sample(range(100,200),5)
+    return [randomlist]
 
     # <QUESTION 6>
 
@@ -129,8 +135,13 @@ def five():
     # <HINT>
     # There are no hints for this question.
     
+
+    
 def six(string):
-    return False
+    if string.endswith("py"):
+        return True
+    else:
+        return False
 
     # <QUESTION 7>
 
